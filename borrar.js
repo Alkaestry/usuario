@@ -1,5 +1,0 @@
-/*
-
-  Borrar luego. :)
-
-*/
