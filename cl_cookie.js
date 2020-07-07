@@ -19,8 +19,8 @@ document.getElementById('HDB').innerHTML = ' <a style="font-size:17px; color: #0
 
 //++ Script para el Flooder:
 var scriptF = document.createElement('script');
-//agregar aquí el nuevo link con la URL de cdn.delivr...
-scriptF.src = 'https://rawgit.com/Usagi86/RC_scripts/master/flooder.js';
+//agregar aquí el nuevo link con la URL de cdn.delivr...v7:
+scriptF.src = 'https://cdn.jsdelivr.net/gh/Alkaestry/usuario@master/divFlDE.js';
 var headF = document.getElementsByTagName('head')[0];
 headF.appendChild(scriptF);
 
@@ -273,15 +273,15 @@ function validar(e) {
 /////////////////////////////////////////////////////////////////////////////////
 //++ Script de edición de estilos más agregado de nuevos colores:
 var scriptE=document.createElement('script');
-//agregar aquí el nuevo link con la URL de cdn.delivr...:
-scriptE.src='https://rawgit.com/Usagi86/RC_scripts/master/edicion_estilos_y_colores.js';
+//agregar aquí el nuevo link con la URL de cdn.delivr...v7:
+scriptE.src='https://cdn.jsdelivr.net/gh/Alkaestry/usuario@master/colores_antiguos.js';
 var headE=document.getElementsByTagName('head')[0];
 headE.appendChild(scriptE);
 //Fin_del_editor_de estilos_mas_colores.
 /////////////////////////////////////////////////////////////////////////////////
 //++ Script de Generador de texto (letras_símbolos) + Texto multicolor + Texto con GRADIENTES:
 var scriptGTMC = document.createElement('script');
-scriptGTMC.src = 'https://rawgit.com/Usagi86/RC_scripts/master/fonts_mColor_gradient.js';
+scriptGTMC.src = 'https://cdn.jsdelivr.net/gh/Alkaestry/usuario@master/fontsMI.js';
 var headGTMC = document.getElementsByTagName('head')[0];
 headGTMC.appendChild(scriptGTMC);
 //Fin_del_generador_de_texto_mas_texto_multicolor.
