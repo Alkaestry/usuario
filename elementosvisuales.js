@@ -1,5 +1,5 @@
 /************************************************
-Editor de esilos
+Editor de esTilos
 Se agregaron nuevos colores para las fuentes
 Author: ++
 modificado el 6/Jul/2020
