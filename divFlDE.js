@@ -1,10 +1,3 @@
-/************
-version 3
-Author: ++
-************/
-
-//++ ScriptMultiSpam:(Flooder)
-
 function multiSpam()
 {
 	var myText=document.getElementById("spamText").value;
@@ -16,10 +9,9 @@ function multiSpam()
 	var chekk=ULS.getID(u_nick); 
 	if (chekk!=null) 
 	{
-		rcFC.send("500","612",chekk,textO);
+	rcFC.send("500","612",chekk,textO);
 	}
 }
-
 var spamm;
 function presbts1(){
 if (document.getElementById("bts1").innerHTML=="ON..")
@@ -35,5 +27,4 @@ else
 		spamm = setInterval('multiSpam();',document.getElementById("tiempo").value);
 	}
 }
-//Fin_multispam_flooder.
-
+//Fin.
