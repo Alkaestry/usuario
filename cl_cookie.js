@@ -6,7 +6,7 @@
 	Version 7 al 6 de Julio del 2020 (definitiva y última)
 **************************/
 
-
+document.getElementById("HDA").innerHTML="<b>Versión modificada por @OM</b><br/>Version 7.1FULL"
 //++ Anti-Kick:
 rcFC.send("700","750"); 
 BL.pingSent = new Date().getMilliseconds();
